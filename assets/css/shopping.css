@@ -1,0 +1,582 @@
+.link-info {
+    padding-top: 1.5rem;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+.link-info-name {
+    text-decoration: none;
+    color: black;
+    
+}
+.link-info-icon {
+    padding: 0 3px 0 3px;
+}
+
+.picture-box {
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+}
+.picture-img {
+    width: 40%;
+    padding: 1.8rem;
+}
+
+.picture-price {
+    width: 60%;  
+    position: relative;
+}
+
+.img-price {
+    
+}
+
+.img-price-big {
+    padding-top: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+.img-price-small {
+    padding-top: 20%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+}
+
+.share {
+    display: flex;
+    padding: 30px 10px 10px 30px;
+}
+
+.link-share {
+    position: relative;
+}
+
+.link-share-name {
+    font-size:2rem;
+    color: #222;
+}
+
+.link-share::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #FB9086;
+    height: 18px;
+    right: -55px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.link-share-icon {
+    font-size:2rem;
+    text-decoration: none;
+    padding-left: 3px;
+}
+
+.link-love {
+    margin-left: 10rem;
+}
+
+.link-love-icon {
+    font-size:2rem;
+    text-decoration: none;
+    padding-left: 3px;
+    color: red;
+}
+
+.link-love-name {
+    font-size:2rem;
+}
+
+/* price */
+.picture-price {
+    
+}
+
+.picture-price-form {
+    padding: 20px;
+}
+
+.picture-price-tenthe {
+    
+}
+
+.tenthe-name {
+    font-size: 2.5rem;
+}
+
+.picture-price-danhgia {
+    padding-top: 13px;
+    display: flex;
+}
+
+.danhgia-star {
+    display: flex;
+    color: red;
+}
+
+.danhgia-star-length {
+    font-size:2rem;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+    padding-bottom: 3px;
+}
+
+.danhgia-rating {
+    font-size: 13px;
+    padding-left: 5px;
+    padding-top: 0.5px;
+}
+
+.danhgia-star::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 23px;
+    right: 60rem;
+    top: 10%;
+    transform: translateY(-50%);
+}
+
+.danhgia-rate {
+    display: flex;
+    padding-left:3rem;
+}
+
+.rate-name {
+    font-size:1.5rem;
+    padding-left: 5px;
+    padding-top: 0.5px;
+    color: #555;
+}
+
+.danhgia-daban {
+    display: flex;
+    padding-left:3rem;
+}
+
+.danhgia-daban-length {
+    font-size: 2rem;
+}
+
+.danhgia-rate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #555;
+    height: 23px;
+    right: 63.5%;
+    top: 9.5%;
+    transform: translateY(-50%);
+}
+
+/* menhgia */
+.picture-price-menhgia{
+    background-color: #fafafa;
+    margin-top: 15px;
+    margin-right: 3rem;
+}
+.price-mengia {
+    padding: 15px;
+}
+.price-menhgia-item {
+    display: flex;
+}
+.price-menhgia-old {
+    font-size:2rem;
+    text-decoration: line-through;
+    color: #929292;
+    padding-top: 10px;
+}
+.price-menhgia-new {
+    display: flex;
+    font-size:2.8rem;
+    font-weight: 550;
+    padding:10px;
+    color:red;
+}
+.price-menhgia-giamgia {
+    font-size: 1.02rem;
+    color: #fff;
+    margin-left: 10px;
+    text-transform: uppercase;
+    background: #ee4d2d;
+    border-radius: 2px;
+    padding: 2px 4px;
+    font-weight: 800;
+    line-height: 1.4;
+}
+/* vanchuyen */
+.picture-price-vanchuyen {
+    margin-top: 2.3rem;
+    margin-left: 2.5rem;
+}
+.vanchuyen-form-vanchuyen {
+    display: flex;
+}
+.vanchuyen-name {
+    font-size:1.8rem;
+    color: #757575;
+    padding-right: 30px;
+}
+.vanchuyen-phuongthuc-free {
+    font-size:1.5rem;
+    display: flex;
+    margin-bottom: 10px;
+}
+.free {
+    padding-top:-5px;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.nofree {
+    color: #636363;
+    margin-right: 1rem;;
+}
+
+.phuongthuc1-check {
+    display: flex;
+}
+
+.phuongthuc1-check:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.showvc:hover .price-0d {
+    display: block;
+}
+
+.price-0d {
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    right: 0;
+    width: 40rem;
+    margin-right: 5rem;
+    padding-right: 40px;
+    border-radius: 4px;
+    border: 1px solid #D3D3D3;
+    background-color: var(--white-color);
+    cursor: default;
+    /* transform-origin: calc(100% - 32px) top; */
+    /* animation: headerNotifyGrowth ease-in 0.2s; */
+    will-change: opacity, transform;
+    display: none;
+}
+
+@keyframes headerNotifyGrowth {
+    from {
+        opacity: 0;
+        transform: scale(0);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.price-0d::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: -16px;
+    width: 90px;
+    height: 20px;
+
+}
+
+.price-0d-thongbao {
+    font-size: 1.8rem;
+    line-height: 40px;
+    padding-left:27px;
+}
+
+.price-0d-vanchuyen {
+    font-size:1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-free {
+    font-size: 1.8rem;
+}
+
+.price-free-icon {
+    margin-left: 0.5rem;
+}
+
+/* so luong */
+.vanchuyen-form-the {
+    display: flex;
+    margin-top: 3rem;
+}
+
+.vanchuyen-the {
+    display: flex;
+}
+
+.vanchuyen__soluong {
+    display: flex;
+}
+
+.vanchuyen__soluong-name {
+    font-size: 1.8rem;
+    padding-right: 3rem;
+    padding-top: 7px;
+    color: #757575;
+}
+
+.vanchuyen__soluong-input {
+    width: 35px;
+    line-height: 15px;
+    font-size: 1.5rem;
+}
+
+.vanchuyen__soluong-button {
+    background-color: #fff;
+    display: flex;
+}
+
+.button-tru {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    transition: background-color .1s cubic-bezier(.4,0,.6,1);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 2px;
+    background: transparent;
+    color: rgba(0,0,0,.8);
+    width: 32px;
+    height: 32px;
+}
+
+.vanchuyen__soluong-input {
+    width: 50px;
+    height: 32px;
+    border-left: none;
+    border-right: none;
+    font-size: 16px;
+    font-weight: 400;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: text;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+.soluong-daban {
+    margin-left: 10px;
+}
+
+/* thêm vào giỏ hàng */
+.picture-price-muangay {
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.muangay__form-button {
+    padding: 15px 10px ;
+    text-align: center;
+    margin-right: 1.9rem;
+    color: #ee4d2d;
+    border: 1px solid #ee4d2d;
+    background-color: #ffeee8;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.muangay__form-icon {
+    font-size: 2rem;
+    padding-right: 5px;
+}
+
+.muangay__form-them {
+    font-size: 1.8rem;
+}
+
+.muangay__form-mua {
+    font-size: 1.8rem;
+    padding: 15px 5rem;
+    color: white;
+    background-color: #ee4d2d;
+}
+
+/* cam ket */
+.picture-price-camket  {
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.picture-price-camket a {
+    text-decoration: none;
+}
+
+.camket-img {
+    vertical-align: middle;
+    height: 20px;
+    position: relative;
+    margin-bottom: 6.5px;
+}
+
+.camket-dambao {
+    color: #222;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    margin: 0 20px 0 5px;
+}
+
+.camket-hoantra {
+    font-size: 1.7rem;
+    color: rgba(0,0,0,.54);
+}
+
+.page-product__shop {
+    position: relative;
+    width: 100%;
+    height: 12rem;
+    background-color: white;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.product__shop-avt {
+    -webkit-flex-shrink: 0;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    margin-right: 1.25rem;
+    position: relative;
+
+}
+
+.page-product__shop-img {
+    padding-left: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    width: 40%;
+    height: 100%;
+    display: flex;
+}
+
+.shop-avt {
+   position: absolute;
+   height: 8rem;
+   border-radius: 50%;
+}
+
+.product__shop-thongtin {
+    padding-left: 9rem;
+}
+
+.product__shop-thongtin::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #f2f2f2;
+    height: 60%;
+    left: 40%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.shop-thongtin-name {
+    font-size:1.8rem;
+    line-height: 2rem;
+}
+
+.shop-thongtin-onl {
+    font-size: 1.7rem;
+    color: #9e9a9a
+}
+
+.shop-thongtin-button {
+    margin-top: 1rem;
+}
+
+.button-chat {
+    background: rgba(255,87,34,.1);
+    border: 1px solid #ee4d2d;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.03);
+    height: 32px;
+    padding: 0 18px;
+    min-width: 60px;
+    max-width: 190px;
+    margin-right: 12px;
+}
+
+.button-xem {
+    background: #fff;
+    color: #555;
+    border: 1px solid rgba(0,0,0,.09);
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.03)
+}
+
+.thongtin-chat {
+    font-size: 1.5rem;
+    color: red;
+}
+
+.thongtin-xem {
+    color: #555;
+}
+
+.page-product__shop-info {
+    display: flex;
+    margin-left: 2rem;
+    padding: 20px;
+    line-height: 3.5rem;
+}
+
+.shop-info-thongtin {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+.shop-info-danhgia {
+    font-size: 1.7rem;
+    color: #9e9a9a;
+}
+
+.shop-info-soluong {
+    font-size: 1.7rem;
+    color: red;
+    padding-left: 1rem;
+}
+
