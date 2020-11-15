@@ -1438,3 +1438,6 @@ i.home-product-item__like-icon-fill {
     }
 }
 
+.header__cart-checkbox:checked ~ .header__cart-list {
+    display: none;
+}
